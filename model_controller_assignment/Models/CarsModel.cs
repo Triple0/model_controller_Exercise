@@ -1,7 +1,7 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace model_controller_assignment.Models
+namespace Cars.Models
 {
     public class CarsModel
     {
@@ -18,4 +18,4 @@ namespace model_controller_assignment.Models
         public string Year { get; set; }
         
     }
-}
+}

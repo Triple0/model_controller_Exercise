@@ -11,6 +11,8 @@ namespace model_controller_assignment.Controllers
 {
     public class CarsController : Controller
     {
+        private object _CarsItemService;
+
         public async Car<IActionResult> Index()
         {
             var items = await _CarsItemService.GetIncompleteItemsAsync();
